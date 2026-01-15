@@ -1,0 +1,9 @@
+cat > .gitignore <<'EOF'
+a.out
+*.o
+*.exe
+*.out
+*.log
+*.tmp
+.DS_Store
+EOF
