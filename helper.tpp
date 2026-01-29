@@ -9,3 +9,11 @@ std::ostream& operator<<(std::ostream& os, const std::unordered_map<K, V>& mp) {
     return os;
 }
 
+
+template <class V>
+std::ostream& operator<<(std::ostream& os, const std::vector<V> & vect) {
+    os << "{ ";
+    for (const auto& v : vect) os << v << " ";
+    os << "}";
+    return os;
+}

@@ -1,0 +1,14 @@
+---
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+
+# Additional useful settings for CP
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+BreakBeforeBraces: Attach
+IndentCaseLabels: false
+PointerAlignment: Left
