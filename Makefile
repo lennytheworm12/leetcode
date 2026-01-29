@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS := -std=c++20 -O2 -pipe -DLOCAL 
+CXXFLAGS := -std=c++20 -O2 -pipe -DLOCAL -Wall
 SRC := submit.cpp
 OUT := a.out
 
